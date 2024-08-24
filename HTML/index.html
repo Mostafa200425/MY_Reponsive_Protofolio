@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mostafa Essa</title>
+    <link rel="stylesheet" href="../Style/style.css" />
+    <link rel="stylesheet" href="../Style/mediaQueres.css" />
+  </head>
+  <body>
+    <nav id="desktopNav">
+      <div class="logo">Mostafa Essa</div>
+      <div>
+        <ul class="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="menuNav">
+      <div class="logo">Mostafa Essa</div>
+      <div class="menu">
+        <div class="menuIcon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menuLinks">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="sectionPicContainer">
+        <img src="../assets/profile-pic.png" alt="Mostafa Essa Pic" />
+      </div>
+      <div class="textSection">
+        <p class="sectionP1">Hello, I'm</p>
+        <h1 class="title">Mostafa Essa</h1>
+        <p class="sectionP2">Backend Dev & Pen Tester</p>
+        <div class="btnContainer">
+          <button
+            class="btn btnType2"
+            onclick="window.open('../assets/My_CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btnType1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socialContainer">
+          <img
+            src="../assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/mostafa-m-essa-56b831253/'"
+          />
+          <img
+            src="../assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Mostafa200425'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="sectionP1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="sectionContainer">
+        <div class="sectionPicContainer">
+          <img
+            src="../assets/profile-pic2.jpeg"
+            alt="Profile picture"
+            class="aboutPic"
+          />
+        </div>
+        <div class="aboutDetailsContainer">
+          <div class="aboutContainers">
+            <div class="detailsContainer">
+              <img
+                src="../assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Backend Development</p>
+            </div>
+            <div class="detailsContainer">
+              <img
+                src="../assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Computer Science<br />EJUST</p>
+            </div>
+          </div>
+          <div class="textContainer">
+            <p>
+                Enthusiastic and motivated beginner
+                backend developer eager to kickstart
+                a career in software development.
+                Seeking opportunities to apply
+                foundational skills in backend
+                technologies, learn from experienced
+                professionals, and contribute to
+                innovative projects.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="sectionP1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experienceDetailsContainer">
+        <div class="aboutContainers">
+          <div class="detailsContainer">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="articleContainer">
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express.js</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>RESTful APIs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="detailsContainer">
+            <h2 class="experience-sub-title">Penetration testing</h2>
+            <div class="articleContainer">
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Networking</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Metasploit</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Burp Suite</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cryptography</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="sectionP1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experienceDetailsContainer">
+        <div class="aboutContainers">
+          <div class="detailsContainer colorContainer">
+            <div class="articleContainer">
+              <img
+                src="../assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btnContainer">
+              <button
+                class="btn btnType2 projectBtn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btnType2 projectBtn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="detailsContainer colorContainer">
+            <div class="articleContainer">
+              <img
+                src="../assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btnContainer">
+              <button
+                class="btn btnType2 projectBtn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btnType2 projectBtn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="detailsContainer colorContainer">
+            <div class="articleContainer">
+              <img
+                src="../assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btnContainer">
+              <button
+                class="btn btnType2 projectBtn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btnType2 projectBtn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="sectionP1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contactInfoContainer2">
+        <div class="contactInfoContainer1">
+          <img
+            src="../assets/email.png"
+            alt="Email icon"
+            class="icon contactIcon emailIcon"
+          />
+          <p><a href="mailto:mostafa.m.essa01@gmail.com">mostafa.m.essa01@gmail.com</a></p>
+        </div>
+        <div class="contactInfoContainer1">
+          <img
+            src="../assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contactIcon"
+          />
+          <p><a href="https://www.linkedin.com/in/mostafa-m-essa-56b831253/">Mostafa Essa</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="navLinksContainer">
+          <ul class="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Mostafa Essa. All Rights Reserved.</p>
+    </footer>
+    <script src="../JS/main.js"></script>
+  </body>
+</html>
